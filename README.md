@@ -76,15 +76,18 @@ The first release of the Modular Science Framework includes the driving usecase 
 
 ## License ##
 
-This project is under license from Apache License, Version 2.0. For more details, see the [LICENSE](LICENSE) file.
+This project is under license from BSD 3-Clause. For more details, see the [LICENSE](LICENSE) file.
 
 ## Author ##
 
-Made by <a href="https://github.com/multiscale-cosim" target="_blank">Multiscale Co-simulation team</a>.
+Made by <a href="https://www.fz-juelich.de/en/ias/jsc/about-us/structure/simulation-and-data-labs/sdl-neuroscience" target="_blank">Multiscale Co-simulation team</a>.
 
 ## Acknowledgement ##
 
-This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 785907 (HBP SGA2). This project/research has received funding from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Specific Grant Agreement No. 945539 (HBP SGA3). Specific Grant Agreement ‘Interactive Computing E-Infrastructure for the Human Brain Project – ICEI’ (01/2018-03/2023).
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 785907 (HBP SGA2). 
+
+This project/research has received funding from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Specific Grant Agreement No. 945539 (HBP SGA3). Specific Grant Agreement ‘Interactive Computing E-Infrastructure for the Human Brain Project – ICEI’ (01/2018-03/2023).
+
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 800858 (HBP SGA ICEI).
 
 
