@@ -76,7 +76,7 @@ The following tools were used in this project:
 
 The first release of the Modular Science Framework includes the driving usecase as demonstration of multi-scale co-simulations. Follow below links to the repositories of these usecases for more detailed description and installation guides.
 
-- [TVB NEST Co-simulation Usecase 1](https://github.com/multiscale-cosim/TVB-NEST-usecase1): A multi-scale neuroscience use-case which connects a spiking neural network with a neural mass model using the simulators [NEST](https://www.nest-simulator.org/) and [TVB](https://www.thevirtualbrain.org/tvb/) respectively.
+- [TVB NEST Co-simulation Usecase 1](https://github.com/multiscale-cosim/TVB-NEST-usecase1/tree/stable-release): A multi-scale neuroscience use-case which connects a spiking neural network with a neural mass model using the simulators [NEST](https://www.nest-simulator.org/) and [TVB](https://www.thevirtualbrain.org/tvb/) respectively.
 - more to come...
 
 ## License ##
