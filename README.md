@@ -6,7 +6,7 @@
   <!-- <a href="git@github.com:multiscale-cosim/TVB-NEST-usecase1.git">Demo</a> -->
 </div>
 
-<h1 align="center">Modular Science Framework</h1>
+<h1 align="center">Modular Science Framework v1.0</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
@@ -36,7 +36,7 @@
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Driving Use-cases</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">How to use</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/multiscale-cosim" target="_blank">Author</a> &#xa0; | &#xa0;
   <a href="https://github.com/multiscale-cosim" target="_blank">Acknowledgement</a>
@@ -72,9 +72,9 @@ The following tools were used in this project:
 - [C++](https://isocpp.org/)
 - [Makefile](https://www.gnu.org/software/make/manual/make.html)
 
-## Driving Use-cases ##
+## How to use ##
 
-Follow the link to the repositories of the driving usecases for more detailed description and installation guides.
+The first release of the Modular Science Framework includes the driving usecase as demonstration of multi-scale co-simulations. Follow below links to the repositories of these usecases for more detailed description and installation guides.
 
 - [TVB NEST Co-simulation Usecase 1](https://github.com/multiscale-cosim/TVB-NEST-usecase1): A multi-scale neuroscience use-case which connects a spiking neural network with a neural mass model using the simulators [NEST](https://www.nest-simulator.org/) and [TVB](https://www.thevirtualbrain.org/tvb/) respectively.
 - more to come...
