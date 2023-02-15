@@ -24,12 +24,6 @@
   <img alt="Github stars" src="https://img.shields.io/github/stars/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
 </p>
 
-## Status
-
-<h4 align="center"> 
-	Modular Science Framework
-</h4> 
-
 <hr>
 
 <p align="center">
@@ -46,17 +40,14 @@
 
 ## About ##
 
-### TODO: edit description
-The modular science framework is a software for the deployment of complex interactive workflows on supercomputers, which serves as an orchestrator for scientific applications.
-
 The Modular Science (MSC) Framework facilitates deployment, integratation, orchestration and intuitive & interactive control of larger complex workflows.
 It can execute a independant applications running in parallel on heterogeneous HPC platforms. The framework comprises a set of following micro-services like independent applications:
 
-* <a href="https://github.com/multiscale-cosim/EBRAINS_ConfigManager/tree/hpc"> Configurations Manager </a>
-* <a href="https://github.com/multiscale-cosim/EBRAINS_InterscaleHUB/tree/hpc"> InterscaleHub </a>
-* <a href="https://github.com/multiscale-cosim/EBRAINS_Launcher/tree/hpc"> Launcher </a>
-* <a href="https://github.com/multiscale-cosim/EBRAINS_RichEndpoint/tree/hpc"> Rich Endpoint </a>
-* <a href="https://github.com/multiscale-cosim/EBRAINS_WorkflowConfigurations/tree/hpc"> Workflow Configurations </a>
+* <a href="https://github.com/multiscale-cosim/EBRAINS_ConfigManager"> Configurations Manager </a>
+* <a href="https://github.com/multiscale-cosim/EBRAINS_InterscaleHUB"> InterscaleHub </a>
+* <a href="https://github.com/multiscale-cosim/EBRAINS_Launcher"> Launcher </a>
+* <a href="https://github.com/multiscale-cosim/EBRAINS_RichEndpoint"> Rich Endpoint </a>
+* <a href="https://github.com/multiscale-cosim/EBRAINS_WorkflowConfigurations"> Workflow Configurations </a>
 
 ## Features ##
 
@@ -74,7 +65,7 @@ The following tools were used in this project:
 
 ## How to use ##
 
-The first release of the Modular Science Framework includes the driving usecase as demonstration of multi-scale co-simulations. Follow below links to the repositories of these usecases for more detailed description and installation guides.
+The first release of the Modular Science Framework includes the driving usecase as demonstration of multi-scale co-simulations. Follow below links to the repositories of this usecase for a more detailed description, installation guide and how to run it.
 
 - [TVB NEST Co-simulation Usecase 1](https://github.com/multiscale-cosim/TVB-NEST-usecase1/tree/stable-release): A multi-scale neuroscience use-case which connects a spiking neural network with a neural mass model using the simulators [NEST](https://www.nest-simulator.org/) and [TVB](https://www.thevirtualbrain.org/tvb/) respectively.
 - more to come...
