@@ -22,8 +22,11 @@
 
 ## About ##
 
-The Modular Science (MSC) Framework facilitates deployment, integratation, orchestration and intuitive & interactive control of larger complex workflows.
-It can execute a independant applications running in parallel on heterogeneous HPC platforms. The framework comprises a set of following micro-services like independent applications:
+The [Modular Science Framework](https://www.fz-juelich.de/en/ias/jsc/about-us/structure/simulation-and-data-labs/sdl-neuroscience/research/modular-science) provides a low entry threshold software framework to ease the deployment of complex interactive workflows on HPC resources. In particular, it tackles the following two challenges: 
+ 1. the robust online deployment of a complex workflow comprises multiple applications
+ 2. the orchestration of data flows in an interactive and reproducible fashion.
+
+The framework comprises a set of following micro-services like independent applications:
 
 * <a href="https://github.com/multiscale-cosim/EBRAINS_ConfigManager"> Configurations Manager </a>
 * <a href="https://github.com/multiscale-cosim/EBRAINS_InterscaleHUB"> InterscaleHub </a>
