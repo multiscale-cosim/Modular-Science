@@ -1,12 +1,12 @@
 <div align="center" id="top"> 
-  <img src="../../../misc/logo.jpg" alt="Modular Science: Multi-scale Co-simulation" />
+  <img src="../../../misc/logo.jpg" alt="Modular Science Framework" />
 
   &#xa0;
 
   <!-- <a href="git@github.com:multiscale-cosim/TVB-NEST-usecase1.git">Demo</a> -->
 </div>
 
-<h1 align="center">Modular Science: Multi-scale Co-simulation</h1>
+<h1 align="center">Modular Science Framework</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
@@ -27,7 +27,7 @@
 ## Status
 
 <h4 align="center"> 
-	Multi-scale Co-simulation - TVB-NEST-usecase1
+	Modular Science Framework
 </h4> 
 
 <hr>
@@ -46,7 +46,7 @@
 
 ## About ##
 
-### Modular-Science
+### TODO: edit description
 The modular science framework is a software for the deployment of complex interactive workflows on supercomputers, which serves as an orchestrator for scientific applications.
 
 The Modular Science (MSC) Framework facilitates deployment, integratation, orchestration and intuitive & interactive control of larger complex workflows.
@@ -74,7 +74,10 @@ The following tools were used in this project:
 
 ## Driving Use-cases ##
 
-TODO: Link tvb-nest-usecase1 here
+Follow the link to the repositories of the driving usecases for more detailed description and installation guides.
+
+- [TVB NEST Co-simulation Usecase 1](https://github.com/multiscale-cosim/TVB-NEST-usecase1): A multi-scale neuroscience use-case which connects a spiking neural network with a neural mass model using the simulators [NEST](https://www.nest-simulator.org/) and [TVB](https://www.thevirtualbrain.org/tvb/) respectively.
+- more to come...
 
 ## License ##
 
