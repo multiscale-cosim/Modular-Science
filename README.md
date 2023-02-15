@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="../../../misc/logo.jpg" alt="Modular Science Framework" />
+  <img src="<insert beatufil image here>" alt="Modular Science Framework" />
 
   &#xa0;
 
@@ -7,24 +7,6 @@
 </div>
 
 <h1 align="center">Modular Science Framework v1.0</h1>
-
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
-
-  <img alt="License" src="https://img.shields.io/github/license/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
-
-  <img alt="Github issues" src="https://img.shields.io/github/issues/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
-
-  <img alt="Github forks" src="https://img.shields.io/github/forks/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
-
-  <img alt="Github stars" src="https://img.shields.io/github/stars/multiscale-cosim/TVB-NEST-usecase1?color=56BEB8" />
-</p>
-
-<hr>
 
 <p align="center">
   <a href="#about">About</a> &#xa0; | &#xa0; 
@@ -69,10 +51,10 @@ The following tools were used in this project:
 
 ## How to use ##
 
-The first release of the Modular Science Framework includes the driving usecase as demonstration of multi-scale co-simulations. Follow below links to the repositories of this usecase for a more detailed description, installation guide and how to run it.
+The first release of the Modular Science Framework includes the driving usecase as demonstration of multi-scale co-simulations. Follow below link to the repository of this usecase for a more detailed description, installation guide and how to run it.
 
 - [TVB NEST Co-simulation Usecase 1](https://github.com/multiscale-cosim/TVB-NEST-usecase1/tree/stable-release): A multi-scale neuroscience use-case which connects a spiking neural network with a neural mass model using the simulators [NEST](https://www.nest-simulator.org/) and [TVB](https://www.thevirtualbrain.org/tvb/) respectively.
-- more to come...
+- more to come in future releases.
 
 ## License ##
 
