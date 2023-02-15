@@ -36,8 +36,7 @@
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-Dependencies">Dependencies</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Getting Started</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Driving Use-cases</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/multiscale-cosim" target="_blank">Author</a> &#xa0; | &#xa0;
   <a href="https://github.com/multiscale-cosim" target="_blank">Acknowledgement</a>
@@ -47,7 +46,7 @@
 
 ## About ##
 
-# Modular-Science
+### Modular-Science
 The modular science framework is a software for the deployment of complex interactive workflows on supercomputers, which serves as an orchestrator for scientific applications.
 
 The Modular Science (MSC) Framework facilitates deployment, integratation, orchestration and intuitive & interactive control of larger complex workflows.
@@ -61,19 +60,7 @@ It can execute a independant applications running in parallel on heterogeneous H
 
 ## Features ##
 
-:heavy_check_mark: ConfigManager description
-
-:heavy_check_mark: InterscaleHUB description
-
-:heavy_check_mark: Launcher description
-
-:heavy_check_mark: RichEndpoint description
-
-:heavy_check_mark: WorkflowConfiguration description
-
-:heavy_check_mark: Adapter classes description
-
-:heavy_check_mark: anything else...
+TODO...
 
 
 ## Technologies ##
@@ -85,56 +72,15 @@ The following tools were used in this project:
 - [C++](https://isocpp.org/)
 - [Makefile](https://www.gnu.org/software/make/manual/make.html)
 
-## Getting Started ##
+## Driving Use-cases ##
 
-The framework and usecase can be installed and launched on:
-- **Local systems:** e.g. a virtual machine (VM) on a laptop. We support the useage of Virtualbox and Vagrant.
-- **HPC systems:** currently supported on the [JUWELS](https://apps.fz-juelich.de/jsc/hps/juwels/index.html) and [JUSUF](https://apps.fz-juelich.de/jsc/hps/jusuf/index.html) clusters at the Jülich Supercomputing Centre.
-
-The intended platform to deploy the MSC framework with this co-simulation usecase are HPC systems.
-They allow independant scaling of the components and efficient simulations. Deploying it on a laptop aids testing and development.
-
-### Installation ###
-
-Please check [HERE](https://github.com/multiscale-cosim/TVB-NEST-usecase1/blob/main/INSTALL.md) for installation details.
-
-
-### How to run ###
- 
- The framework and usecase can be installed and launched on:
-- **Local systems:** go to [run_usecase/local](https://github.com/multiscale-cosim/TVB-NEST-usecase1/tree/hpc/run_usecase/local) directory and run [this](https://github.com/multiscale-cosim/TVB-NEST-usecase1/blob/hpc/run_usecase/local/cosim_launch_local_dev.sh) script from there e.g.
-
-  ```
-  $ sh ./cosim_launch_local.sh
-  ```
-
-- **HPC systems:** To execute the usecase on HPC systems, go to [run_usecase/hpc](https://github.com/multiscale-cosim/TVB-NEST-usecase1/tree/hpc/run_usecase/hpc) directory. The usecase can be deployed and executed within an interactive session or could also be submitted as a SLURM job. 
-
-  - Interactive session: first allocate the required resources by specifying the cluster partition and account e.g:
-    ```
-    $ salloc --partition=<partition> --nodes=2 --account=<account>
-    ```
-    Then, run [this](https://github.com/multiscale-cosim/TVB-NEST-usecase1/blob/hpc/run_usecase/hpc/cosim_launch_hpc_sbatch.sh) script from there e.g.:
-
-    ```
-    $ sh ./cosim_launch_hpc_sbatch.sh
-    ```
-
-  - SLURM job: To submit the usecase as a slurm job, run [this](https://github.com/multiscale-cosim/TVB-NEST-usecase1/blob/hpc/run_usecase/hpc/run_usecase_sbatch.sh) script e.g.:
-
-    ```
-    $ sh ./run_usecase_sbatch.sh
-    ```
-
-    **NOTE** It will create a directory named as _slurm_logs_ at the [same location](https://github.com/multiscale-cosim/TVB-NEST-usecase1/tree/hpc/run_usecase/hpc) where the execution script is run, to capture the outputs and errors from the SLURM.
-
-  **Simulation Results:** The simulation results, logs, and the resource usage stats can be found in directory ***Cosimulation_outputs*** created by Modular Science during the execution at the [same location](https://github.com/multiscale-cosim/TVB-NEST-usecase1/tree/hpc/run_usecase/hpc) where the execution script is run.
--- --
+TODO: Link tvb-nest-usecase1 here
 
 ## License ##
 
 This project is under license from Apache License, Version 2.0. For more details, see the [LICENSE](LICENSE) file.
 
+## Author ##
 
 Made by <a href="https://github.com/multiscale-cosim" target="_blank">Multiscale Co-simulation team</a>.
 
