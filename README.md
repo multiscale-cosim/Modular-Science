@@ -27,13 +27,13 @@
 <hr>
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">How to use</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/multiscale-cosim" target="_blank">Author</a> &#xa0; | &#xa0;
-  <a href="https://github.com/multiscale-cosim" target="_blank">Acknowledgement</a>
+  <a href="#about">About</a> &#xa0; | &#xa0; 
+  <a href="#features">Features</a> &#xa0; | &#xa0;
+  <a href="#technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#how-to-use">How to use</a> &#xa0; | &#xa0;
+  <a href="#license">License</a> &#xa0; | &#xa0;
+  <a href="#author" target="_blank">Author</a> &#xa0; | &#xa0;
+  <a href="#acknowledgement" target="_blank">Acknowledgement</a>
 </p>
 
 <br>
@@ -51,7 +51,11 @@ It can execute a independant applications running in parallel on heterogeneous H
 
 ## Features ##
 
-TODO...
+ - Provides a handle on the complexity of the co-simulation deployment and execution on high-performance computing (HPC) systems.
+ - Offers the steering of the execution of the whole workflow
+ - Offers the insights in both the system level and the individual subsystem (application/simulator) levels to monitor the resource usage (e.g. CPU, Memory) without affecting the performance.
+ - Provides with the health & status information of the whole system and the application/simulator-wide to detect the failures, bottlenecks and dubugging purposes without having any affects on performance.
+ - Keeps the track of steering and state transitions for provenance tracking.
 
 
 ## Technologies ##
@@ -80,12 +84,8 @@ Made by <a href="https://github.com/multiscale-cosim" target="_blank">Multiscale
 
 ## Acknowledgement ##
 
-This project has received funding from the European Union’s Horizon 2020 research and innovation
-programme under grant agreement No 785907 (HBP SGA2), from the European Union’s Horizon
-2020 Framework Programme for Research and Innovation under the Specific Grant Agreement No.
-945539 (HBP SGA3) and from the European Union’s Horizon 2020 Framework Programme for
-Research and Innovation under the Specific Grant Agreement No. 945539 (Human Brain Project
-SGA3)
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 785907 (HBP SGA2). This project/research has received funding from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Specific Grant Agreement No. 945539 (HBP SGA3). Specific Grant Agreement ‘Interactive Computing E-Infrastructure for the Human Brain Project – ICEI’ (01/2018-03/2023).
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 800858 (HBP SGA ICEI).
 
 
 &#xa0;
