@@ -80,7 +80,7 @@ This project is under license from BSD 3-Clause. For more details, see the [LICE
 
 ## Author ##
 
-Made by <a href="https://www.fz-juelich.de/en/ias/jsc/about-us/structure/simulation-and-data-labs/sdl-neuroscience" target="_blank">Multiscale Co-simulation team</a>.
+Made by <a href="https://www.fz-juelich.de/en/ias/jsc/about-us/structure/simulation-and-data-labs/sdl-neuroscience/teams" target="_blank">Multiscale Co-simulation team</a>.
 
 ## Acknowledgement ##
 
