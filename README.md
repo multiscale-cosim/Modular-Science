@@ -33,11 +33,11 @@ It can execute a independant applications running in parallel on heterogeneous H
 
 ## Features ##
 
- - Provides a handle on the complexity of the co-simulation deployment and execution on high-performance computing (HPC) systems.
- - Offers the steering of the execution of the whole workflow
- - Offers the insights in both the system level and the individual subsystem (application/simulator) levels to monitor the resource usage (e.g. CPU, Memory) without affecting the performance.
- - Provides with the health & status information of the whole system and the application/simulator-wide to detect the failures, bottlenecks and dubugging purposes without having any affects on performance.
- - Keeps the track of steering and state transitions for provenance tracking.
+ - Provides a handle on the deployment of complex co-simulation workflows and their execution on high-performance computing (HPC) systems.
+ - Offers steering of the execution of the workflows
+ - Offers insights on both levels, system (HPC) and individual subsystem (application/simulator), in order to monitor the resource usage (e.g. CPU, Memory).
+ - Provides health & status information of the whole system and individual applications to detect failures and bottlenecks for effienct use of resources and dubugging purposes with minimal overhead on performance.
+ - Keeps track of steering and state transitions for provenance tracking.
 
 
 ## Technologies ##
