@@ -6,7 +6,7 @@
   <!-- <a href="git@github.com:multiscale-cosim/TVB-NEST-usecase1.git">Demo</a> -->
 </div>
 
-<h1 align="center">Modular Science Framework v1.0</h1>
+<h1 align="center">Modular Science Framework v2.0</h1>
 
 <p align="center">
   <a href="#about">About</a> &#xa0; | &#xa0; 
@@ -54,10 +54,14 @@ The following tools were used in this project:
 
 ## How to use ##
 
-The first release of the Modular Science Framework includes the driving usecase as demonstration of multi-scale co-simulations. Follow below link to the repository of this usecase for a more detailed description, installation guide and how to run it.
+Modular Science Framework v2.0 includes the following driving usecases as demonstration of multi-scale co-simulations. Follow below link to the repository of these usecase for a more detailed description, installation guide and how to run it.
 
-- [TVB NEST Co-simulation Usecase 1](https://github.com/multiscale-cosim/TVB-NEST-usecase1/tree/stable-release): A multi-scale neuroscience use-case which connects a spiking neural network with a neural mass model using the simulators [NEST](https://www.nest-simulator.org/) and [TVB](https://www.thevirtualbrain.org/tvb/) respectively.
-- more to come in future releases.
+
+- [TVB NEST Co-simulation Usecase 1](https://github.com/multiscale-cosim/TVB-NEST-usecase1): A multi-scale neuroscience use-case which connects a spiking neural network with a neural mass model using the simulators [NEST](https://www.nest-simulator.org/) and [TVB](https://www.thevirtualbrain.org/tvb/) respectively.
+- [NEST LFPy](https://github.com/multiscale-cosim/Cosim-LFPy): This usecase demonstrates how to use the Co-simulation framework to calculate Local Field Potentials (LFPs) in real time, based on spike events streamed from the [NEST](https://www.nest-simulator.org/) simulator. The LFP signals are calculated from the spike events by applying the so-called kernel approach, as outlined in Hagen et al. (2022): https://doi.org/10.1371/journal.pcbi.1010353. This usecase can be used as a starting point for applying the Co-simulation framework to other network models in NEST or TVB, and also for simulating other brain signals like EEG, MEG, or ECoG signals.
+- [Cosim-NEST Desktop-Insite](https://github.com/multiscale-cosim/Cosim_NestDesktop_Insite): It demonstrates the seemsless integration of Modular Science with external tools such as [NEST Desktop](https://nest-desktop.readthedocs.io/en/latest/) (a web based GUI application) and the [Insite pipeline](https://vrgrouprwth.github.io/insite/). The integration is based on the [TVB NEST Co-simulation Usecase 1](https://github.com/multiscale-cosim/TVB-NEST-usecase1) which serves as the foundation. This allows users of NEST Desktop to:
+  - Create a spiking neural network for [NEST](https://www.nest-simulator.org/) simulator.
+  - Observe the neuronal or network activity with Insite during the simulation.
 
 ## License ##
 
